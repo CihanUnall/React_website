@@ -15,7 +15,7 @@ export const courses = [
     },
     {
         id : 2,
-        title : "React ",
+        title : "Html ",
         description : "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!",
         price : 12.99,  
         link : "https://github.com/CihanUnall",
@@ -23,7 +23,7 @@ export const courses = [
     },
     {
         id : 3,
-        title : "React ",
+        title : "Css ",
         description : "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!",
         price : 12.99,  
         link : "https://github.com/CihanUnall",
@@ -31,7 +31,7 @@ export const courses = [
     },
     {
         id : 4,
-        title : "React ",
+        title : "Javascript ",
         description : "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!",
         price : 12.99,  
         link : "https://github.com/CihanUnall",

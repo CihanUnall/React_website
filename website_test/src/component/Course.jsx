@@ -8,10 +8,10 @@ function Course({ course }) {
   return (
     <div className='course' >
         <div className='item'>        
-      <img src={image} width={250} height={250} />
+      <img src={image}  />
       <h4>{title}</h4>
       <h5>{description}</h5>
-      <h3>{price}</h3>
+      <h3>{price} €</h3>
       <h6>{link}</h6>
       </div>
     </div>
