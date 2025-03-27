@@ -7,22 +7,16 @@ function App() {
  
 
   return (
-    <div>
+  <div>
      <Header/>
-   
-    {
-      courses?.map((course) => (
-
-      <Course key={course.id} course={course} />
-
-
-
-      ))
-      
-     }
-  
-      
-    </div>
+    <div className='App'>  
+      {
+        courses?.map((course) => (
+        <Course key={course.id} course={course} />
+        ))      
+      }
+    </div>      
+  </div>
   )
 }
 

@@ -1,13 +1,13 @@
 import React from 'react'
-
+import './Course.css'
 
 
 function Course({ course }) {
-    console.log(course)
+    
     const {id, title, description, price, link,image} = course
   return (
     <div className='course' >
-        <div>        
+        <div className='item'>        
       <img src={image} width={250} height={250} />
       <h4>{title}</h4>
       <h5>{description}</h5>
